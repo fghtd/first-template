@@ -1,0 +1,24 @@
+.container {
+  width: 1920;
+}
+.nav {
+  background: #1d2f30;
+  display: flex;
+  align-items: center;
+}
+.nav img {
+  margin-right: 125px;
+}
+header a {
+  color: #ffffff;
+}
+.menu {
+  display: flex;
+}
+.menu li {
+  list-style-type: none;
+  margin-right: 64px;
+}
+.menu li a {
+  text-decoration: none;
+}
