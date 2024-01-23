@@ -90,7 +90,49 @@ header a {
   margin-left: 8px;
 }
 
+.collection {
+  background: #1d2f30;
+}
+
 .collection__cards {
   display: flex;
   justify-content: space-between;
+  /* align-items: center; */
+}
+
+.wrapper__top {
+  background: #0b1919;
+  padding: 30px 16px;
+}
+
+.wrapper_bottom {
+  padding: 30px 16px;
+  border: 1px solid #0b1919;
+}
+
+.card__name {
+  margin-bottom: 8px;
+  color: #fff;
+  font-family: Cormorant;
+  font-size: 24px;
+  font-weight: 700;
+  line-height: 150%;
+}
+
+.card__text {
+  margin-bottom: 16px;
+  color: #899d9d;
+  width: 233px;
+  font-size: 16px;
+  line-height: 150%;
+}
+
+.description {
+  padding: 20.5px 59px;
+  margin-bottom: 24px;
+  background: transparent;
+  border-color: #bae249;
+  font-size: 16px;
+  line-height: 150%;
+  color: #bae249;
 }
