@@ -196,7 +196,7 @@ header a {
 
 .left__content {
   padding: 16px 16px;
-  width: 793px;
+  width: 825px;
   background: #0b1919;
   display: flex;
   justify-content: space-between;
@@ -204,7 +204,6 @@ header a {
 }
 
 .right__content {
-  width: 223px;
   padding: 16px 16px;
   background: #bae249;
 }
