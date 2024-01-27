@@ -98,7 +98,6 @@ header a {
 .collection__cards {
   display: flex;
   justify-content: space-between;
-  align-items: stretch;
 }
 
 .wrapper__top {
@@ -112,6 +111,7 @@ header a {
 }
 
 .card__name {
+  margin-top: 30px;
   margin-bottom: 8px;
   color: #fff;
   font-family: Cormorant;
@@ -130,9 +130,8 @@ header a {
 
 .description {
   padding: 20.5px 59px;
-  /* margin-bottom: 24px; */
   background: transparent;
-  border-color: #bae249;
+  border: 1px solid#bae249;
   font-size: 16px;
   line-height: 150%;
   color: #bae249;
