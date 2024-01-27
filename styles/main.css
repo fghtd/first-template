@@ -111,8 +111,11 @@ header a {
 }
 
 .wrapper__top {
-  padding: 30px 16px;
+  height: 180px;
   background: #0b1919;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .wrapper__middle {
