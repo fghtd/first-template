@@ -118,6 +118,27 @@ header a {
   align-items: center;
 }
 
+.plant__number {
+  position: relative;
+  bottom: 60px;
+  left: 5px;
+}
+
+.element__number {
+  position: relative;
+  top: 28px;
+}
+
+.number {
+  font-family: "Cormorant", serif;
+  font-size: 16px;
+  color: #899d9d;
+  font-weight: 700;
+  position: absolute;
+  top: 0;
+  left: 4px;
+}
+
 .wrapper__middle {
   padding: 16px 16px;
   flex-grow: 2;
@@ -131,8 +152,6 @@ header a {
 }
 
 .card__name {
-  /* margin-top: 30px; */
-  /* margin-bottom: 8px; */
   color: #fff;
   font-family: Cormorant;
   font-size: 24px;
@@ -274,5 +293,19 @@ header a {
 }
 
 .footer__images {
-  padding: 18px 15px;
+  padding: 18px 18px;
+  border: transparent;
+  background: transparent;
+}
+
+.copyright {
+  background: #1d2f30;
+  display: flex;
+  justify-content: center;
+}
+
+.copyright__text {
+  padding: 3px 0 0 0;
+  font-size: 12px;
+  color: #899d9d;
 }
