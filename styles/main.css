@@ -2,6 +2,7 @@
   margin: 0;
   padding: 0;
   font-family: "Open Sans";
+  box-sizing: border-box;
 }
 
 button {
@@ -103,19 +104,32 @@ header a {
   justify-content: space-between;
 }
 
+.card__wrapper {
+  border: 1px solid #0b1919;
+  display: flex;
+  flex-direction: column;
+}
+
 .wrapper__top {
   padding: 30px 16px;
   background: #0b1919;
 }
 
-.wrapper_bottom {
+.wrapper__middle {
   padding: 16px 16px;
-  border: 1px solid #0b1919;
+  flex-grow: 2;
+}
+
+.wrapper__bottom {
+  padding: 16px 16px;
+  display: flex;
+  flex-direction: column;
+  justify-content: end;
 }
 
 .card__name {
-  margin-top: 30px;
-  margin-bottom: 8px;
+  /* margin-top: 30px; */
+  /* margin-bottom: 8px; */
   color: #fff;
   font-family: Cormorant;
   font-size: 24px;
