@@ -4,6 +4,9 @@
   font-family: "Open Sans";
 }
 
+button {
+  cursor: pointer;
+}
 /* font-family: 'Cormorant', serif; */
 
 .container {
